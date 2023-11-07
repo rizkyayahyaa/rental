@@ -3,150 +3,63 @@
 @section('content')
     <!-- Hero Section -->
     <section class="hero-section">
-        <div class="banner-slider slider">
-            <div class="banner">
-                <img class="img-fluid" src="{{ URL::asset('/assets/img/banner.jpg') }}" alt="img">
-            </div>
-            <div class="banner">
-                <img class="img-fluid" src="{{ URL::asset('/assets/img/banner-02.jpg') }}" alt="img">
-            </div>
-            <div class="banner">
-                <img class="img-fluid" src="{{ URL::asset('/assets/img/banner-03.jpg') }}" alt="img">
+        <div class="container">
+            <div class="home-banner">
+                <div class="row align-items-center w-100">
+                    <div class="col-lg-7 col-md-10 mx-auto">
+                        <div class="section-search aos" data-aos="fade-up">
+                            <h1>Professional Services For Your Home & Commercial </h1>
+                            <p>Search From 100 Awesome Verified Ads!</p>
+                            <div class="search-box">
+                                <form action="search">
+                                    <div class="search-input line">
+                                        <div class="search-group-icon">
+                                            <i class="feather-map-pin"></i>
+                                        </div>
+                                        <div class="form-group mb-0">
+                                            <label>Your Location</label>
+                                            <input type="text" class="form-control" placeholder="America">
+                                        </div>
+                                    </div>
+                                    <div class="search-input">
+                                        <div class="search-group-icon search-icon">
+                                            <i class="feather-search"></i>
+                                        </div>
+                                        <div class="form-group mb-0">
+                                            <label>What are you looking for?</label>
+                                            <input type="text" class="form-control" placeholder="Car Repair Services">
+                                        </div>
+                                    </div>
+                                    <div class="search-btn">
+                                        <button class="btn btn-primary" type="submit"><i
+                                                class="feather-search me-2"></i>Search</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="banner-imgs">
+                            <div class="banner-1 shape-1">
+                                <img class="img-fluid" alt="banner" src="{{ URL::asset('/assets/img/banner1.png') }}">
+                            </div>
+                            <div class="banner-2 shape-3">
+                                <img class="img-fluid" alt="banner" src="{{ URL::asset('/assets/img/banner2.png') }}">
+                            </div>
+                            <div class="banner-3 shape-3">
+                                <img class="img-fluid" alt="banner" src="{{ URL::asset('/assets/img/banner3.png') }}">
+                            </div>
+                            <div class="banner-4 shape-2">
+                                <img class="img-responsive" alt="banner"
+                                    src="{{ URL::asset('/assets/img/banner4.png') }}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- /Hero Section -->
-
-    <!-- Appointment Section -->
-    <section class="appointment-section aos" data-aos="fade-up">
-        <div class="container">
-            <div class="appointment-main">
-                <h6>GET A MODERN LOOK</h6>
-                <h1>Upto 25% offer on First Appointment</h1>
-                <p>No one you see is smarter than he so join us here are sure to get a smile from seven stranded.</p>
-                <div class="appointment-btn">
-                    <a href="{{ url('free-trial') }}" class="btn btn-primary">BOOK AN APPOINTMENT NOW</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Appointment Section -->
-
-    <!-- Services Section -->
-    <section class="services-section">
-        <div class="container">
-            <div class="services-header aos" data-aos="fade-up">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-content">
-                            <h2>Our Services</h2>
-                            <div class="our-img-all">
-                                <img src="{{ URL::asset('/assets/img/icons/scissor.svg') }}" alt="">
-                            </div>
-                            <p>Our Barbershop & Tattoo Salon provides classic services combined with innovative techniques.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="owl-carousel services-slider aos" data-aos="fade-up">
-                        <div class="services-all">
-                            <div class="services-main-img">
-                                <a href="">
-                                    <img class="img-fluid serv-image" alt="Service Image"
-                                        src="{{ URL::asset('/assets/img/services/service-20.png') }}">
-                                </a>
-                                <div class="service-foot">
-                                    <img src="{{ URL::asset('/assets/img/icons/saloon-service-2.svg') }}" alt="">
-                                    <h4>Haircut</h4>
-                                    <h6>25 Saloons</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services-all">
-                            <div class="services-main-img">
-                                <a href="">
-                                    <img class="img-fluid serv-image" alt="Service Image"
-                                        src="{{ URL::asset('/assets/img/services/service-21.png') }}">
-                                </a>
-                                <div class="service-foot">
-                                    <img src="{{ URL::asset('/assets/img/icons/saloon-service-2.svg') }}" alt="">
-                                    <h4>Trimming</h4>
-                                    <h6>25 Saloons</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services-all">
-                            <div class="services-main-img">
-                                <a href="">
-                                    <img class="img-fluid serv-image" alt="Service Image"
-                                        src="{{ URL::asset('/assets/img/services/service-22.png') }}">
-                                </a>
-                                <div class="service-foot">
-                                    <img src="{{ URL::asset('/assets/img/icons/saloon-service-2.svg') }}" alt="">
-                                    <h4>Saloons</h4>
-                                    <h6>25 Saloons</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services-all">
-                            <div class="services-main-img">
-                                <a href="">
-                                    <img class="img-fluid serv-image" alt="Service Image"
-                                        src="{{ URL::asset('/assets/img/services/service-23.png') }}">
-                                </a>
-                                <div class="service-foot">
-                                    <img src="{{ URL::asset('/assets/img/icons/saloon-service-2.svg') }}" alt="">
-                                    <h4>Shaving</h4>
-                                    <h6>25 Saloons</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services-all">
-                            <div class="services-main-img">
-                                <a href="">
-                                    <img class="img-fluid serv-image" alt="Service Image"
-                                        src="{{ URL::asset('/assets/img/services/service-20.png') }}">
-                                </a>
-                                <div class="service-foot">
-                                    <img src="{{ URL::asset('/assets/img/icons/saloon-service-2.svg') }}" alt="">
-                                    <h4>Haircut</h4>
-                                    <h6>25 Saloons</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sidecircle-ryt">
-            <img src="{{ URL::asset('/assets/img/side-circle.png') }}" alt="">
-        </div>
-    </section>
-    <!-- /service Section -->
-
-    <!-- video section -->
-    <section class="service-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item-video" data-merge="3"><a class="owl-video" href="https://vimeo.com/23924346"></a></div>
-                        <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=JpxsRwnRwCQ"></a></div>
-                        <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=FBu_jxT1PkA"></a></div>
-                        <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=oy18DJwy5lI"></a></div>
-                        <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=H3jLkJrhHKQ"></a></div>
-                        <div class="item-video" data-merge="3"><a class="owl-video" href="https://www.youtube.com/watch?v=g3J4VxWIM6s"></a></div>
-                        <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=0fhoIate4qI"></a></div>
-                        <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- video section -->
 
     <!-- Feature Section -->
     <section class="feature-section">
