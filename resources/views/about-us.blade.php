@@ -22,35 +22,30 @@
                     <div class="col-lg-6">
                         <div class="about-img">
                             <div class="about-exp">
-                                <span>12+ years of experiences</span>
+                                <span>10+ years of experiences</span>
                             </div>
                             <div class="abt-img">
-                                <img src="{{ URL::asset('/assets/img/about-01.jpg') }}" class="img-fluid" alt="img">
+                                <img src="{{ URL::asset('/assets/img/audi.png') }}" class="img-fluid" alt="img">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="about-content">
                             <h6>ABOUT OUR COMPANY</h6>
-                            <h2>Best Solution For Cleaning Services</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore
-                                et dolore magna aliqua. Ut enim minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                architecto beatae vitae dicta sunt explicabo.</p>
+                            <h2>Your Trusted Car Rental Service</h2>
+                            <p>Welcome to our car rental company, where we prioritize your convenience and satisfaction. With over a decade of experience, we are committed to providing top-quality rental vehicles and exceptional customer service. Whether you need a car for a day, a week, or longer, we have a wide range of vehicles to suit your needs.</p>
+                            <p>Our fleet includes a variety of cars, from compact models for city driving to larger vehicles for family trips. We ensure that all our vehicles are well-maintained and ready to provide you with a smooth and comfortable ride. Our team is dedicated to making your rental experience as hassle-free as possible.</p>
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul>
-                                        <li>At vero et accusamus iusto dignissimos</li>
-                                        <li>At vero et accusamus iusto dignissimos</li>
+                                        <li>Wide range of vehicles</li>
+                                        <li>Flexible rental options</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <ul>
-                                        <li>Nam libero tempore, cum soluta nobis</li>
-                                        <li>Nam libero tempore, cum soluta nobis</li>
+                                        <li>Affordable rates</li>
+                                        <li>24/7 customer support</li>
                                     </ul>
                                 </div>
                             </div>
@@ -68,7 +63,7 @@
                     <div class="col-md-12 text-center">
                         <div class="section-heading">
                             <h2>How It Works</h2>
-                            <p>Aliquam lorem ante, dapibus in, viverra quis</p>
+                            <p>Simple and Convenient</p>
                         </div>
                     </div>
                 </div>
@@ -80,8 +75,8 @@
                                     <img src="{{ URL::asset('/assets/img/icons/work-icon.svg') }}" alt="img">
                                 </span>
                             </div>
-                            <h5>Choose What To Do</h5>
-                            <p>Lorem ipsum dolor amet, consectetur adipiscing tempor labore et dolore magna aliqua.</p>
+                            <h5>Choose Your Car</h5>
+                            <p>Select from our wide range of vehicles that best suits your needs.</p>
                             <h4>01</h4>
                         </div>
                     </div>
@@ -92,8 +87,8 @@
                                     <img src="{{ URL::asset('/assets/img/icons/find-icon.svg') }}" alt="img">
                                 </span>
                             </div>
-                            <h5>Find What You Want</h5>
-                            <p>Lorem ipsum dolor amet, consectetur adipiscing tempor labore et dolore magna aliqua.</p>
+                            <h5>Make a Reservation</h5>
+                            <p>Book your chosen vehicle through our user-friendly platform.</p>
                             <h4>02</h4>
                         </div>
                     </div>
@@ -104,8 +99,8 @@
                                     <img src="{{ URL::asset('/assets/img/icons/place-icon.svg') }}" alt="img">
                                 </span>
                             </div>
-                            <h5>Amazing Places</h5>
-                            <p>Lorem ipsum dolor amet, consectetur adipiscing tempor labore et dolore magna aliqua.</p>
+                            <h5>Pick Up & Drive</h5>
+                            <p>Collect your vehicle and enjoy your journey with peace of mind.</p>
                             <h4>03</h4>
                         </div>
                     </div>
@@ -128,20 +123,16 @@
                                         aria-expanded="false">24/7 Supports</a>
                                 </h4>
                                 <div id="aboutone" class="card-collapse collapse">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                        architecto beatae vitae dicta sunt explicabo.</p>
+                                    <p>Our customer support team is available around the clock to assist you with any inquiries or issues.</p>
                                 </div>
                             </div>
                             <div class="support-card">
                                 <h4 class="support-title">
                                     <a class="collapsed" data-bs-toggle="collapse" href="#abouttwo"
-                                        aria-expanded="false">Client’s reviews</a>
+                                        aria-expanded="false">Client’s Reviews</a>
                                 </h4>
                                 <div id="abouttwo" class="card-collapse collapse">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                        architecto beatae vitae dicta sunt explicabo.</p>
+                                    <p>We are proud of the positive feedback from our satisfied customers.</p>
                                 </div>
                             </div>
                             <div class="support-card">
@@ -150,9 +141,7 @@
                                         aria-expanded="false">Professional Team</a>
                                 </h4>
                                 <div id="about3" class="card-collapse collapse">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                        architecto beatae vitae dicta sunt explicabo.</p>
+                                    <p>Our team of professionals is dedicated to providing excellent service and support.</p>
                                 </div>
                             </div>
                             <div class="support-card">
@@ -161,16 +150,14 @@
                                         Services</a>
                                 </h4>
                                 <div id="about4" class="card-collapse collapse">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                        architecto beatae vitae dicta sunt explicabo.</p>
+                                    <p>We strive to offer the best rental services to ensure your satisfaction.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="chooseus-img">
-                            <img src="{{ URL::asset('/assets/img/about-02.png') }}" class="img-fluid" alt="img">
+                            <img src="{{ URL::asset('/assets/img/rentall.png') }}" class="img-fluid" alt="img">
                         </div>
                     </div>
                 </div>
@@ -180,7 +167,7 @@
                             <img src="{{ URL::asset('/assets/img/icons/choose-icon.svg') }}" class="img-fluid"
                                 alt="img">
                             <div class="choose-info">
-                                <h5>2583+</h5>
+                                <h5>1500+</h5>
                                 <p>Satisfied Clients</p>
                             </div>
                         </div>
@@ -190,8 +177,8 @@
                             <img src="{{ URL::asset('/assets/img/icons/choose-icon-01.svg') }}" class="img-fluid"
                                 alt="img">
                             <div class="choose-info">
-                                <h5>2383+</h5>
-                                <p>Expert Team</p>
+                                <h5>200+</h5>
+                                <p>Vehicles in Fleet</p>
                             </div>
                         </div>
                     </div>
@@ -200,8 +187,8 @@
                             <img src="{{ URL::asset('/assets/img/icons/choose-icon.png') }}" class="img-fluid"
                                 alt="img">
                             <div class="choose-info">
-                                <h5>2129+</h5>
-                                <p>Project Completed</p>
+                                <h5>3000+</h5>
+                                <p>Rides Completed</p>
                             </div>
                         </div>
                     </div>
@@ -210,7 +197,7 @@
                             <img src="{{ URL::asset('/assets/img/icons/choose-icon-03.svg') }}" class="img-fluid"
                                 alt="img">
                             <div class="choose-info">
-                                <h5>30+</h5>
+                                <h5>10+</h5>
                                 <p>Years of experience</p>
                             </div>
                         </div>
@@ -220,247 +207,15 @@
         </div>
         <!-- /Choose Us Section -->
 
-        <!-- Providers Section -->
-        <section class="providers-section abt-provider">
-            <div class="container">
-                <div class="section-heading">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2>Top Providers</h2>
-                            <p>Meet Our Experts</p>
-                        </div>
-                        <div class="col-md-6 text-md-end">
-                            <a href="{{ url('providers') }}" class="btn btn-primary btn-view">View All<i
-                                    class="feather-arrow-right-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="providerset">
-                            <div class="providerset-img">
-                                <a href="{{ url('provider-details') }}">
-                                    <img src="{{ URL::asset('/assets/img/provider/provider-11.jpg') }}" alt="img">
-                                </a>
-                            </div>
-                            <div class="providerset-content">
-                                <div class="providerset-price">
-                                    <div class="providerset-name">
-                                        <h4><a href="{{ url('provider-details') }}">John Smith</a><i
-                                                class="fa fa-check-circle" aria-hidden="true"></i></h4>
-                                        <span>Electrician</span>
-                                    </div>
-                                    <div class="providerset-prices">
-                                        <h6>$20.00<span>/hr</span></h6>
-                                    </div>
-                                </div>
-                                <div class="provider-rating">
-                                    <div class="rating">
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fa-solid fa-star-half-stroke filled"></i><span>(320)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="providerset">
-                            <div class="providerset-img">
-                                <a href="{{ url('provider-details') }}">
-                                    <img src="{{ URL::asset('/assets/img/provider/provider-12.jpg') }}" alt="img">
-                                </a>
-                            </div>
-                            <div class="providerset-content">
-                                <div class="providerset-price">
-                                    <div class="providerset-name">
-                                        <h4><a href="{{ url('provider-details') }}">Michael</a><i
-                                                class="fa fa-check-circle" aria-hidden="true"></i></h4>
-                                        <span>Carpenter</span>
-                                    </div>
-                                    <div class="providerset-prices">
-                                        <h6>$50.00<span>/hr</span></h6>
-                                    </div>
-                                </div>
-                                <div class="provider-rating">
-                                    <div class="rating">
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fa-solid fa-star-half-stroke filled"></i><span>(228)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="providerset">
-                            <div class="providerset-img">
-                                <a href="{{ url('provider-details') }}">
-                                    <img src="{{ URL::asset('/assets/img/provider/provider-13.jpg') }}" alt="img">
-                                </a>
-                            </div>
-                            <div class="providerset-content">
-                                <div class="providerset-price">
-                                    <div class="providerset-name">
-                                        <h4><a href="{{ url('provider-details') }}">Antoinette</a><i
-                                                class="fa fa-check-circle" aria-hidden="true"></i></h4>
-                                        <span>Cleaner</span>
-                                    </div>
-                                    <div class="providerset-prices">
-                                        <h6>$25.00<span>/hr</span></h6>
-                                    </div>
-                                </div>
-                                <div class="provider-rating">
-                                    <div class="rating">
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fa-solid fa-star-half-stroke filled"></i><span>(130)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="providerset">
-                            <div class="providerset-img">
-                                <a href="{{ url('provider-details') }}">
-                                    <img src="{{ URL::asset('/assets/img/provider/provider-14.jpg') }}" alt="img">
-                                </a>
-                            </div>
-                            <div class="providerset-content">
-                                <div class="providerset-price">
-                                    <div class="providerset-name">
-                                        <h4><a href="{{ url('provider-details') }}">Thompson</a><i
-                                                class="fa fa-check-circle" aria-hidden="true"></i></h4>
-                                        <span>Mechanic</span>
-                                    </div>
-                                    <div class="providerset-prices">
-                                        <h6>$25.00<span>/hr</span></h6>
-                                    </div>
-                                </div>
-                                <div class="provider-rating">
-                                    <div class="rating">
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fa-solid fa-star-half-stroke filled"></i><span>(95)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Providers Section -->
-
-        <!-- Client Section -->
-        <section class="client-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="section-heading">
-                            <h2>What our client says</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur elit</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="owl-carousel testimonial-slider">
-
-                            <div class="client-widget">
-                                <div class="client-img">
-                                    <a href="javascript:;">
-                                        <img class="img-fluid" alt="Image"
-                                            src="{{ URL::asset('/assets/img/profiles/avatar-01.jpg') }}">
-                                    </a>
-                                </div>
-                                <div class="client-content">
-                                    <div class="rating">
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi </p>
-                                    <h5>Mike Hussy</h5>
-                                    <h6>Director</h6>
-                                </div>
-                            </div>
-                            <div class="client-widget">
-                                <div class="client-img">
-                                    <a href="javascript:;">
-                                        <img class="img-fluid" alt="Image"
-                                            src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}">
-                                    </a>
-                                </div>
-                                <div class="client-content">
-                                    <div class="rating">
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi </p>
-                                    <h5>Mike Hussy</h5>
-                                    <h6>Director</h6>
-                                </div>
-                            </div>
-                            <div class="client-widget">
-                                <div class="client-img">
-                                    <a href="javascript:;">
-                                        <img class="img-fluid" alt="Image"
-                                            src="{{ URL::asset('/assets/img/profiles/avatar-03.jpg') }}">
-                                    </a>
-                                </div>
-                                <div class="client-content">
-                                    <div class="rating">
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                        <i class="fas fa-star filled"></i>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi </p>
-                                    <h5>Mike Hussy</h5>
-                                    <h6>Director</h6>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Client Section -->
-
         <!-- Service Section -->
         <div class="service-offer">
             <div class="container">
                 <div class="col-md-12">
                     <div class="offer-paths about-offer">
                         <div class="offer-path-content">
-                            <h3>Looking for the Best Service Finder & Bookings</h3>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore architecto beatae vitae
-                                dicta sunt explicabo.</p>
-                            <a href="{{ url('service-grid') }}" class="btn btn-primary btn-views">Get Started<i
+                            <h3>Looking for the Best Car Rental Services?</h3>
+                            <p>We provide top-notch car rental services with a wide range of vehicles to choose from. Book your car today and experience the best service in the industry.</p>
+                            <a href="{{ url('car-listing') }}" class="btn btn-primary btn-views">Get Started<i
                                     class="feather-arrow-right-circle"></i></a>
                         </div>
                         <div class="offer-pathimg">

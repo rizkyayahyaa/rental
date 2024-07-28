@@ -4,6 +4,8 @@ namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
+
+
 class Kernel extends HttpKernel
 {
     /**
@@ -21,6 +23,12 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
+    ];
+
+    protected $routeMiddleware = [
+        // Other middleware
+        'auth' => \Illuminate\Auth\Middleware\Authenticate::class,
+        // Other middleware
     ];
 
     /**

@@ -1,7 +1,7 @@
 <!-- Footer -->
 @if(!Route::is(['index-2','index-3','index-4','index-5','index-6','index-7','index-8','index-9']))
 <footer class="footer">
-		
+
     <!-- Footer Top -->
     <div class="footer-top">
         <div class="container">
@@ -113,7 +113,7 @@
         </div>
     </div>
     <!-- /Footer Top -->
-    
+
     <!-- Footer Bottom -->
     <div class="footer-bottom">
         <div class="container">
@@ -163,12 +163,12 @@
         </div>
     </div>
     <!-- /Footer Bottom -->
-    
+
 </footer>
 @endif
 @if(Route::is(['index-2']))
 <footer class="footer footer-two">
-		
+
     <!-- Footer Top -->
     <div class="footer-top aos" data-aos="fade-up">
         <div class="container">
@@ -263,7 +263,7 @@
                     </div>
                     <!-- /Footer Widget -->
                 </div>
-                
+
                 <div class="col-lg-2 col-md-6">
                     <!-- Footer Widget -->
                     <div class="footer-widget footer-menu">
@@ -349,7 +349,7 @@
         </div>
     </div>
     <!-- /Footer Top -->
-    
+
     <!-- Footer Bottom -->
     <div class="footer-bottom">
         <div class="container">
@@ -402,7 +402,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <!-- Copyright Menu -->								
+                        <!-- Copyright Menu -->
                         <div class="copyright-text">
                             <p class="mb-0">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</p>
                         </div>
@@ -414,7 +414,7 @@
         </div>
     </div>
     <!-- /Footer Bottom -->
-    
+
 </footer>
 @endif
 @if(Route::is(['index-3']))
@@ -1336,7 +1336,7 @@
 @endif
 @if(Route::is(['index-8']))
 <footer class="footer footer-eight">
-		
+
     <!-- Footer Top -->
     <div class="footer-top aos" data-aos="fade-up">
         <div class="container">
@@ -1479,7 +1479,7 @@
                     <!-- Footer Widget -->
                     <div class="footer-widget footer-menu-eight">
                         <h2 class="footer-title">Application</h2>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
                             It has roots in a piece of classical Latin. It has roots in a piece of classical Latin.</p>
                         <div class="app-eight-bottom">
                             <a href="javascript:;" class="app-eight-bottom-inner">
@@ -1501,7 +1501,7 @@
         </div>
     </div>
     <!-- /Footer Top -->
-    
+
     <!-- Footer Bottom -->
     <div class="footer-bottom footer-bottom-eight">
         <div class="container">
@@ -1517,7 +1517,7 @@
         </div>
     </div>
     <!-- /Footer Bottom -->
-    
+
 </footer>
 @endif
 @if(Route::is(['index-9']))

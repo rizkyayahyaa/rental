@@ -311,8 +311,8 @@
                             <li class="<?php if($page=="provider-chat") { echo 'active'; } ?>"><a href="{{url('provider-chat')}}">Chat</a></li>
                         </ul>
                     </li>
-                    <li class="has-submenu <?php if($page=="about-us" || $page=="contact-us" || $page=="how-it-works" || $page=="choose-signup" || $page=="user-signup" || $page=="provider-signup" || $page=="login" || $page=="reset-password" || $page=="password-recovery" || $page=="phone-otp" 
-                    || $page=="email-otp" || $page=="free-trial" || $page=="booking" || $page=="booking-payment" || $page=="booking-done"|| $page=="categories" || $page=="pricing" || $page=="faq" || 
+                    <li class="has-submenu <?php if($page=="about-us" || $page=="contact-us" || $page=="how-it-works" || $page=="choose-signup" || $page=="user-signup" || $page=="provider-signup" || $page=="login" || $page=="reset-password" || $page=="password-recovery" || $page=="phone-otp"
+                    || $page=="email-otp" || $page=="free-trial" || $page=="booking" || $page=="booking-payment" || $page=="booking-done"|| $page=="categories" || $page=="pricing" || $page=="faq" ||
                     $page=="maintenance" || $page=="coming-soon" || $page=="privacy-policy" || $page=="terms-condition" || $page=="session-expired") { echo 'active'; } ?>">
                         <a href="">Pages <i class="fas fa-chevron-down"></i></a>
                         <ul class="submenu">
@@ -423,8 +423,8 @@
             @endif
             @if(Route::is(['customer-dashboard','customer-booking','customer-favourite','customer-wallet','customer-reviews','customer-chat','customer-profile','security-settings','customer-notifications','connected-apps','invoice','notification',
             'orders','customer-booking-calendar']))
-            <ul class="nav header-navbar-rht">					
-						
+            <ul class="nav header-navbar-rht">
+
                 <!-- Language -->
                 <li class="nav-item dropdown lang-nav">
                     <div class="flag-dropdown">
@@ -448,7 +448,7 @@
                     </div>
                 </li>
                 <!-- /Language -->
-                
+
                 <!-- Language -->
                 <li class="nav-item flag-nav dropdown">
                     <div class="flag-dropdown">
@@ -682,7 +682,7 @@
 'provider-connected-apps','add-coupon','add-subscription','provider-book-details','provider-services-list']))
 <!-- Header -->
 <div class="header">
-    <div class="header-left"> 
+    <div class="header-left">
     <div class="sidebar-logo">
             <a href="{{url('/')}}">
                 <img src="{{ URL::asset('/assets/img/logo.svg')}}" class="img-fluid logo" alt="">
@@ -715,7 +715,7 @@
             </li>
             <li class="nav-item dropdown has-arrow dropdown-heads flag-nav">
                 <a class="nav-link" data-bs-toggle="dropdown" href="javascript:;" role="button">
-                    <img src="{{ URL::asset('/assets/img/flags/us1.png')}}" alt="" height="20"> 
+                    <img src="{{ URL::asset('/assets/img/flags/us1.png')}}" alt="" height="20">
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
                     <a href="javascript:void(0);" class="dropdown-item">
@@ -849,7 +849,7 @@
             <!-- /User Menu -->
         </ul>
     </div>
-    
+
 </div>
 <!-- /Header -->
 @endif

@@ -352,8 +352,8 @@
                         'contact-messages-view', 'abuse-reports','announcements',
                     ]))
                     <li>
-                        <a class="btn btn-primary" href="{{ url('admin/add-service') }}"><i
-                                class="fa fa-plus me-2"></i>Add Services </a>
+                        <a class="btn btn-primary" href="{{ url('admin/cars/create') }}"><i
+                                class="fa fa-plus me-2"></i>Add Cars </a>
                     </li>
                 @endif
                 @if (Route::is(['categories']))

@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer class="footer">
-		
+
     <!-- Footer Top -->
     <div class="footer-top">
         <div class="container">
@@ -9,10 +9,10 @@
                     <!-- Footer Widget -->
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="{{url('/')}}"><img src="{{ URL::asset('/assets/img/logo.svg')}}" alt="logo"></a>
+                            <a href="{{url('/')}}"><img src="{{ URL::asset('/assets/img/carss.png')}}" alt="logo"></a>
                         </div>
                         <div class="footer-content">
-                            <p>Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod tempor   commodo consequat. </p>
+                            <p>Car rental is a service allowing individuals or companies to rent vehicles for a short period, ranging from a few hours to several weeks. It's ideal for those who need a temporary vehicle for personal, business, or travel purposes without owning one.</p>
                         </div>
                         <div class="footer-selects">
                             <h2 class="footer-title">Language & Currency</h2>
@@ -24,14 +24,6 @@
                                             <option>English</option>
                                             <option>France</option>
                                             <option>Spanish</option>
-                                        </select>
-                                    </div>
-                                    <div class="footer-select">
-                                        <img src="{{ URL::asset('/assets/img/icons/dropdown.svg')}}" class="footer-dropdown" alt="img">
-                                        <select class="select">
-                                            <option>US Dollars</option>
-                                            <option>INR</option>
-                                            <option>Kuwait</option>
                                         </select>
                                     </div>
                                 </div>
@@ -49,16 +41,7 @@
                                 <a href="{{url('about-us')}}">About Us</a>
                             </li>
                             <li>
-                                <a href="{{url('blog-grid')}}">Blogs</a>
-                            </li>
-                            <li>
                                 <a href="{{url('contact-us')}}">Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="{{url('provider-signup')}}">Become a Professional</a>
-                            </li>
-                            <li>
-                                <a href="{{url('user-signup')}}">Become a User</a>
                             </li>
                         </ul>
                     </div>
@@ -73,7 +56,7 @@
                                 <p><span><i class="feather-map-pin"></i></span> 367 Hillcrest Lane, Irvine, California, United States</p>
                             </div>
                             <p><span><i class="feather-phone"></i></span> 321 546 8764</p>
-                            <p class="mb-0"><span><i class="feather-mail"></i></span> truelysell@example.com</p>
+                            <p class="mb-0"><span><i class="feather-mail"></i></span> rentcars@example.com</p>
                         </div>
                     </div>
                     <!-- /Footer Widget -->
@@ -112,7 +95,7 @@
         </div>
     </div>
     <!-- /Footer Top -->
-    
+
     <!-- Footer Bottom -->
     <div class="footer-bottom">
         <div class="container">
@@ -121,7 +104,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <div class="copyright-text">
-                            <p class="mb-0">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</p>
+                            <p class="mb-0">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Rizkya Wildani Yahya</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -162,6 +145,6 @@
         </div>
     </div>
     <!-- /Footer Bottom -->
-    
+
 </footer>
 <!-- /Footer -->

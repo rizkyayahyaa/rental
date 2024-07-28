@@ -3,10 +3,12 @@
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-      <title>Testing DKPP</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+      <title>Rental</title>
 
       <!-- Favicon -->
-      <link rel="shortcut icon" type="image/x-icon" href="{{url('assets/img/favicon.png')}}">
+      <link rel="shortcut icon" type="image/x-icon" href="{{url('assets/img/carss.png')}}">
       @include('layout.partials.head-main')
     </head>
     <body>
@@ -22,5 +24,7 @@
             @include('layout.partials.cursor')
             </div>
             @include('layout.partials.footer-main-scripts')
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+        </body>
     </body>
 </html>

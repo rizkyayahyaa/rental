@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-      <title>Testing DKPP</title>
+      <title>Rental</title>
 
       <!-- Favicon -->
       @if(!Route::is(['index-2','index-3','index-9']))
@@ -34,12 +34,12 @@
     @if(Route::is(['error-404','error-500','booking','booking-payment','booking-done','maintenance','coming-soon','session-expired','service-information','provider-device-management','provider-login-activity','device-management','provider-edit-service']))
     <body class="mt-0">
     @endif
-    @if(Route::is(['index-3']))
+    {{--  @if(Route::is(['index-3']))
     <body class="home-page-three">
-    @endif
-    @if(Route::is(['index-4']))
+    @endif  --}}
+    {{--  @if(Route::is(['index-4']))
     <body class="home-page-four">
-    @endif
+    @endif  --}}
     @if(Route::is(['index-5','index-6']))
     <body class="home-page-five">
     @endif
