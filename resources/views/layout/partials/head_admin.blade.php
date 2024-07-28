@@ -1,9 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-<title>Truelysell | Template</title>
+<title>Rental</title>
 
 <!-- Favicons -->
-<link rel="shortcut icon" href="{{ url('admin_assets/img/favicon.png') }}">
+<link rel="shortcut icon" href="{{ url('assets/img/carss.png') }}">
 
 <!-- Select 2 -->
 <link rel="stylesheet" href="{{ url('/admin_assets/css/select2.min.css') }}">
